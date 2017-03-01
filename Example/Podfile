@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JPLoadingButton_Example' do
+  pod 'JPLoadingButton', :path => '../'
+
+  target 'JPLoadingButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
