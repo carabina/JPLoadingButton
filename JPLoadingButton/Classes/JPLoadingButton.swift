@@ -13,14 +13,29 @@ open class JPLoadingButton : UIButton, UIViewControllerTransitioningDelegate, CA
     let shrinkCurve = CAMediaTimingFunction(name: kCAMediaTimingFunctionLinear)
     let unshrinkCurve = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut)
     let expandCurve = CAMediaTimingFunction(controlPoints: 0.95, 0.02, 1, 0.05)
-    let shrinkDuration: CFTimeInterval  = 0.1
-    let unshrinkDuration: CFTimeInterval = 0.1
+    var shrinkDuration:CFTimeInterval = 0.15
+    var unshrinkDuration: CFTimeInterval = 0.1
+   
 
     lazy var spinner: SpinnerLayer! = {
         let s = SpinnerLayer(frame: self.frame)
         self.layer.addSublayer(s)
         return s
     }()
+    
+    
+    @IBInspectable open var shrinkSpeed:CGFloat = 0.15 {
+        didSet {
+            shrinkDuration = CFTimeInterval(shrinkSpeed)
+        }
+    }
+    
+    @IBInspectable open var unshrinkSpeed:CGFloat = 0.1 {
+        didSet {
+            unshrinkDuration = CFTimeInterval(unshrinkSpeed)
+        }
+    }
+
     
     
    @IBInspectable open var cornerRadius: CGFloat? = 20.0 {
