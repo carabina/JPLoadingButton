@@ -1,0 +1,16 @@
+PODS:
+  - JPLoadingButton (0.1.0)
+
+DEPENDENCIES:
+  - JPLoadingButton (from `../`)
+
+EXTERNAL SOURCES:
+  JPLoadingButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JPLoadingButton: 0b2a275ce146c93d5b800764ef39d8a3ab224e70
+
+PODFILE CHECKSUM: 26c22e1e146a431eb28618b02b3737d7ac691d7a
+
+COCOAPODS: 1.2.0

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142A16B01E68574500088BAE /* Login.png in Resources */ = {isa = PBXBuildFile; fileRef = 142A16AF1E68574500088BAE /* Login.png */; };
+		142A16B21E68575100088BAE /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 142A16B11E68575100088BAE /* Home.png */; };
+		142A16B41E6859AA00088BAE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142A16B31E6859AA00088BAE /* SecondViewController.swift */; };
 		17BCBA82E4E2F283B127DFC5 /* Pods_JPLoadingButton_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 922552572C117C64DA485734 /* Pods_JPLoadingButton_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		142A16AF1E68574500088BAE /* Login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Login.png; sourceTree = "<group>"; };
+		142A16B11E68575100088BAE /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Home.png; sourceTree = "<group>"; };
+		142A16B31E6859AA00088BAE /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		5039A6C7C3DE460A91E604BF /* Pods-JPLoadingButton_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPLoadingButton_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPLoadingButton_Example/Pods-JPLoadingButton_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JPLoadingButton_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JPLoadingButton_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,9 +48,9 @@
 		7129569F22C34E33389F8B44 /* Pods-JPLoadingButton_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPLoadingButton_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JPLoadingButton_Tests/Pods-JPLoadingButton_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		72FE65968FEE1B1A4BF5F4F3 /* Pods_JPLoadingButton_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPLoadingButton_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		922552572C117C64DA485734 /* Pods_JPLoadingButton_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JPLoadingButton_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD1DA0ADC029EDF98B98D46C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		BA663381990E9EE06A0BFD68 /* JPLoadingButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JPLoadingButton.podspec; path = ../JPLoadingButton.podspec; sourceTree = "<group>"; };
-		C519F66B4BEF4208F804978B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		AD1DA0ADC029EDF98B98D46C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BA663381990E9EE06A0BFD68 /* JPLoadingButton.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JPLoadingButton.podspec; path = ../JPLoadingButton.podspec; sourceTree = "<group>"; };
+		C519F66B4BEF4208F804978B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F39BF4E712E5A9E3603CBADA /* Pods-JPLoadingButton_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPLoadingButton_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JPLoadingButton_Tests/Pods-JPLoadingButton_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD9971EFB9BAA2CADABA5C37 /* Pods-JPLoadingButton_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JPLoadingButton_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JPLoadingButton_Example/Pods-JPLoadingButton_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +99,10 @@
 		607FACD21AFB9204008FA782 /* Example for JPLoadingButton */ = {
 			isa = PBXGroup;
 			children = (
+				142A16B11E68575100088BAE /* Home.png */,
+				142A16AF1E68574500088BAE /* Login.png */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
+				142A16B31E6859AA00088BAE /* SecondViewController.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -249,6 +258,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				142A16B01E68574500088BAE /* Login.png in Resources */,
+				142A16B21E68575100088BAE /* Home.png in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -361,6 +372,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				142A16B41E6859AA00088BAE /* SecondViewController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);

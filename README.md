@@ -22,7 +22,7 @@ pod "JPLoadingButton"
 
 ## Author
 
-julp04, Nicholas1
+julp04, julpanucci@gmail.com
 
 ## License
 
